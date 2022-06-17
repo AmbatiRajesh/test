@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+.container{
+    display: inline-block;
+    background-color: antiquewhite;
+    border: 2px solid black;
+    box-shadow: 0px 0px 10px 3px;
+    margin-left: 40%;
+    margin-top: 50px;
+}
+.container label{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+.container input{
+    display: block;
+    width: 260px;
+    border-radius: 5px;
+    height:30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    outline: none;
+}
+form{
+    padding:30px;
+}
+.container button{
+    padding: 3px;
+    font-size: large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+
+.container__form__error{
+    color:red;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:bold;
+}
+.card{
+    list-style-type: none;
+    border: 2px solid black;
+    background-color: azure;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 20px;
+    margin-left:35%;
+    display:block;
+    width: 500px;
+    color: brown;
+   
+}
